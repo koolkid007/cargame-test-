@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    
+    <script src="form.js"></script>
+    <script src="player.js"></script>
+    <script src="game.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCHRjGSbW1V_cxQcMVwUoXRsjdc68vBJek",
+        authDomain: "carracinggame-47463.firebaseapp.com",
+        databaseURL: "https://carracinggame-47463.firebaseio.com",
+        projectId: "carracinggame-47463",
+        storageBucket: "carracinggame-47463.appspot.com",
+        messagingSenderId: "611399584207",
+        appId: "1:611399584207:web:e937cbff7e7fd25b102aba"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
